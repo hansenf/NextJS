@@ -9,7 +9,7 @@ export default function Home() {
         (
             async () => {
                 try {
-                    const response = await fetch('http://localhost:8000/api/user', {
+                    const response = await fetch('http://localhost:8001/api/user', {
                         credentials: 'include',
                     });
 

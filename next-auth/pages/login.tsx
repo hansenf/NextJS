@@ -11,7 +11,7 @@ const Login = () => {
     const submit = async (e: SyntheticEvent) => {
         e.preventDefault();
 
-        await fetch('http://localhost:8000/api/login', {
+        await fetch('http://localhost:8001/api/login', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             credentials: 'include',
